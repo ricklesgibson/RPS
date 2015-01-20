@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock! Paper! Scissors!</title>
+</head>
+
+<style>
+
+</style>
+<body>
+
+<button onclick="rock()" id="1">Rock!</button>
+<button onclick="paper()" id="2">Paper!</button>
+<button onclick="scissors()" id="3">Scissors!</button>
+
+	
+</body>
+
+<script>
+
+function rock() {
+    console.log(this.id);
+
+};
+
+function paper() {
+   
+};
+
+function scissors() {
+   
+};
+
+
+
+// var userChoices = document.getElementsByTagName("button");
+
+
+//  var clickables = userChoices.getElementsByClassName("clickable");
+//     // This runs every time something is clicked
+//     // And it receives a MouseEvent object describing the nature of that click
+//     var eventHandler = function(data){
+//         // Show the recieved MouseEvent object
+//         console.log(data);
+        
+//     };
+//     // Specify HTML elements that get wired up to the event handler
+//     clickables[0].onclick = eventHandler;
+//     clickables[1].onclick = eventHandler;
+//     clickables[2].onclick = eventHandler;
+
+
+// var choiceNumber = user
+// console.log(userChoice);
+
+
+// var buttonsCount = userChoice.length;
+// for (var i = 0; i <= buttonsCount; i += 1) {
+//     userChoice[i].onclick = function() {
+//         console.log(this.id);
+//     }
+//     };
+
+
+var compChoice = function () {
+  return Math.floor(Math.random() * (4 - 1)) + 1;
+};
+
+//alert(compChoice());
+
+
+
+
+
+</script>
+
+<p id="demo"></p>
+</html>
